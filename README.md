@@ -1,4 +1,4 @@
-# app-trader-joker
+# app-trader
 
 ### App Trader
 
