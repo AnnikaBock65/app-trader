@@ -4,22 +4,6 @@ Your team has been hired by a new company called App Trader to help them explore
 
 Unfortunately, the data for Apple App Store apps and Android Play Store Apps is located in separate tables with no referential integrity.
 
-#### 1. Loading the data
-a. Launch PgAdmin and create a new database called app_trader.  
-
-b. Right-click on the app_trader database and choose `Restore...`  
-
-c. Use the default values under the `Restore Options` tab. 
-
-d. In the `Filename` section, browse to the backup file `app_store_backup.backup` in the data folder of this repository.  
-
-e. Click `Restore` to load the database.  
-
-f. Verify that you have two tables:  
-    - `app_store_apps` with 7197 rows  
-    - `play_store_apps` with 10840 rows
-
-
 #### 2. Assumptions
 Based on research completed prior to launching App Trader as a company, you can assume the following:  
 
@@ -40,6 +24,3 @@ b. Develop a Top 10 List of the apps that App Trader should buy next week for it
 
 c. Prepare a 5-10 minute presentation for the leadership team of App Trader to inform them of your recommendations.
 
-
-
-### All analysis work must be done in PostgreSQL, however you may export query results if you want to create charts in Excel for your presentations.
